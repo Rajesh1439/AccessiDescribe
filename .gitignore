@@ -1,0 +1,64 @@
+# Private runtime configuration and credentials
+.env
+.env.*
+credentials/
+*.credential
+*.pem
+*.key
+
+# Local application data
+jobs/
+logs/
+data/
+*.db
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+*.log
+*.tmp
+*.bak
+
+# Application source, tests, and development assets
+src/
+tests/
+android/
+packaging/
+tools/
+*.py
+*.pyw
+*.pyi
+*.pyc
+pyproject.toml
+setup.py
+setup.cfg
+requirements*.txt
+local.properties
+*.spec
+
+# Internal documentation that is not part of the public release repository
+ARCHITECTURE.md
+ANDROID_BUILD.md
+DEVELOPMENT_*.md
+RELEASE.md
+SECURITY_AUDIT.md
+TESTING.md
+
+# Build output, caches, and development environments
+build/
+dist/
+.venv/
+venv/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.gradle/
+.idea/
+.vscode/
+
+# Nested repository metadata
+**/.git/
+*.lnk

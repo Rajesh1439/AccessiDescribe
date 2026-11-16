@@ -1,0 +1,919 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "AccessiDescribe-0.1.0",
+  "documentNamespace": "https://accessidescribe.invalid/spdx/0.1.0/151dfaa7232aade274185b14",
+  "creationInfo": {
+    "created": "2026-11-14T08:19:44Z",
+    "creators": [
+      "Tool: AccessiDescribe tools/generate_sbom.py"
+    ],
+    "licenseListVersion": "3.25"
+  },
+  "documentDescribes": [
+    "SPDXRef-Package-pypi-accessidescribe"
+  ],
+  "packages": [
+    {
+      "name": "accessidescribe",
+      "SPDXID": "SPDXRef-Package-pypi-accessidescribe",
+      "versionInfo": "0.1.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/accessidescribe@0.1.0"
+        }
+      ]
+    },
+    {
+      "name": "aiofiles",
+      "SPDXID": "SPDXRef-Package-pypi-aiofiles",
+      "versionInfo": "25.1.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/aiofiles@25.1.0"
+        }
+      ]
+    },
+    {
+      "name": "cryptography",
+      "SPDXID": "SPDXRef-Package-pypi-cryptography",
+      "versionInfo": "46.0.7",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/cryptography@46.0.7"
+        }
+      ]
+    },
+    {
+      "name": "fastapi",
+      "SPDXID": "SPDXRef-Package-pypi-fastapi",
+      "versionInfo": "0.162.5",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/fastapi@0.162.5"
+        }
+      ]
+    },
+    {
+      "name": "httpx",
+      "SPDXID": "SPDXRef-Package-pypi-httpx",
+      "versionInfo": "0.28.1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/httpx@0.28.1"
+        }
+      ]
+    },
+    {
+      "name": "keyring",
+      "SPDXID": "SPDXRef-Package-pypi-keyring",
+      "versionInfo": "25.7.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/keyring@25.7.0"
+        }
+      ]
+    },
+    {
+      "name": "numpy",
+      "SPDXID": "SPDXRef-Package-pypi-numpy",
+      "versionInfo": "2.5.4",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/numpy@2.5.4"
+        }
+      ]
+    },
+    {
+      "name": "opencv-python-headless",
+      "SPDXID": "SPDXRef-Package-pypi-opencv-python-headless",
+      "versionInfo": "4.14.0.94",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/opencv-python-headless@4.14.0.94"
+        }
+      ]
+    },
+    {
+      "name": "platformdirs",
+      "SPDXID": "SPDXRef-Package-pypi-platformdirs",
+      "versionInfo": "4.14.5",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/platformdirs@4.14.5"
+        }
+      ]
+    },
+    {
+      "name": "pydantic-settings",
+      "SPDXID": "SPDXRef-Package-pypi-pydantic-settings",
+      "versionInfo": "2.16.2",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/pydantic-settings@2.16.2"
+        }
+      ]
+    },
+    {
+      "name": "python-multipart",
+      "SPDXID": "SPDXRef-Package-pypi-python-multipart",
+      "versionInfo": "0.0.33",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/python-multipart@0.0.33"
+        }
+      ]
+    },
+    {
+      "name": "soundfile",
+      "SPDXID": "SPDXRef-Package-pypi-soundfile",
+      "versionInfo": "0.14.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/soundfile@0.14.0"
+        }
+      ]
+    },
+    {
+      "name": "sqlalchemy",
+      "SPDXID": "SPDXRef-Package-pypi-sqlalchemy",
+      "versionInfo": "2.1.8",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/sqlalchemy@2.1.8"
+        }
+      ]
+    },
+    {
+      "name": "uvicorn",
+      "SPDXID": "SPDXRef-Package-pypi-uvicorn",
+      "versionInfo": "0.54.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/uvicorn@0.54.0"
+        }
+      ]
+    },
+    {
+      "name": "PySide6",
+      "SPDXID": "SPDXRef-Package-pypi-PySide6",
+      "versionInfo": "6.12.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/PySide6@6.12.0"
+        }
+      ]
+    },
+    {
+      "name": "androidx.compose/compose-bom",
+      "SPDXID": "SPDXRef-Package-maven-androidx.compose-compose-bom",
+      "versionInfo": "2025.04.01",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/androidx.compose/compose-bom@2025.04.01"
+        }
+      ]
+    },
+    {
+      "name": "androidx.core/core-ktx",
+      "SPDXID": "SPDXRef-Package-maven-androidx.core-core-ktx",
+      "versionInfo": "1.16.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/androidx.core/core-ktx@1.16.0"
+        }
+      ]
+    },
+    {
+      "name": "androidx.activity/activity-compose",
+      "SPDXID": "SPDXRef-Package-maven-androidx.activity-activity-compose",
+      "versionInfo": "1.10.1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/androidx.activity/activity-compose@1.10.1"
+        }
+      ]
+    },
+    {
+      "name": "androidx.lifecycle/lifecycle-runtime-compose",
+      "SPDXID": "SPDXRef-Package-maven-androidx.lifecycle-lifecycle-runtime-compose",
+      "versionInfo": "2.9.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/androidx.lifecycle/lifecycle-runtime-compose@2.9.0"
+        }
+      ]
+    },
+    {
+      "name": "androidx.lifecycle/lifecycle-viewmodel-compose",
+      "SPDXID": "SPDXRef-Package-maven-androidx.lifecycle-lifecycle-viewmodel-compose",
+      "versionInfo": "2.9.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/androidx.lifecycle/lifecycle-viewmodel-compose@2.9.0"
+        }
+      ]
+    },
+    {
+      "name": "androidx.compose.material3/material3",
+      "SPDXID": "SPDXRef-Package-maven-androidx.compose.material3-material3",
+      "versionInfo": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/androidx.compose.material3/material3"
+        }
+      ]
+    },
+    {
+      "name": "androidx.compose.material/material-icons-extended",
+      "SPDXID": "SPDXRef-Package-maven-androidx.compose.material-material-icons-extended",
+      "versionInfo": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/androidx.compose.material/material-icons-extended"
+        }
+      ]
+    },
+    {
+      "name": "androidx.compose.ui/ui",
+      "SPDXID": "SPDXRef-Package-maven-androidx.compose.ui-ui",
+      "versionInfo": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/androidx.compose.ui/ui"
+        }
+      ]
+    },
+    {
+      "name": "androidx.compose.ui/ui-tooling-preview",
+      "SPDXID": "SPDXRef-Package-maven-androidx.compose.ui-ui-tooling-preview",
+      "versionInfo": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/androidx.compose.ui/ui-tooling-preview"
+        }
+      ]
+    },
+    {
+      "name": "androidx.navigation/navigation-compose",
+      "SPDXID": "SPDXRef-Package-maven-androidx.navigation-navigation-compose",
+      "versionInfo": "2.9.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/androidx.navigation/navigation-compose@2.9.0"
+        }
+      ]
+    },
+    {
+      "name": "androidx.work/work-runtime-ktx",
+      "SPDXID": "SPDXRef-Package-maven-androidx.work-work-runtime-ktx",
+      "versionInfo": "2.10.1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/androidx.work/work-runtime-ktx@2.10.1"
+        }
+      ]
+    },
+    {
+      "name": "androidx.media3/media3-exoplayer",
+      "SPDXID": "SPDXRef-Package-maven-androidx.media3-media3-exoplayer",
+      "versionInfo": "1.6.1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/androidx.media3/media3-exoplayer@1.6.1"
+        }
+      ]
+    },
+    {
+      "name": "androidx.media3/media3-ui",
+      "SPDXID": "SPDXRef-Package-maven-androidx.media3-media3-ui",
+      "versionInfo": "1.6.1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/androidx.media3/media3-ui@1.6.1"
+        }
+      ]
+    },
+    {
+      "name": "com.squareup.retrofit2/retrofit",
+      "SPDXID": "SPDXRef-Package-maven-com.squareup.retrofit2-retrofit",
+      "versionInfo": "2.11.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.squareup.retrofit2/retrofit@2.11.0"
+        }
+      ]
+    },
+    {
+      "name": "com.squareup.retrofit2/converter-kotlinx-serialization",
+      "SPDXID": "SPDXRef-Package-maven-com.squareup.retrofit2-converter-kotlinx-serialization",
+      "versionInfo": "2.11.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.squareup.retrofit2/converter-kotlinx-serialization@2.11.0"
+        }
+      ]
+    },
+    {
+      "name": "com.squareup.okhttp3/okhttp",
+      "SPDXID": "SPDXRef-Package-maven-com.squareup.okhttp3-okhttp",
+      "versionInfo": "4.12.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.squareup.okhttp3/okhttp@4.12.0"
+        }
+      ]
+    },
+    {
+      "name": "org.jetbrains.kotlinx/kotlinx-serialization-json",
+      "SPDXID": "SPDXRef-Package-maven-org.jetbrains.kotlinx-kotlinx-serialization-json",
+      "versionInfo": "1.8.1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.jetbrains.kotlinx/kotlinx-serialization-json@1.8.1"
+        }
+      ]
+    },
+    {
+      "name": "org.jetbrains.kotlinx/kotlinx-coroutines-android",
+      "SPDXID": "SPDXRef-Package-maven-org.jetbrains.kotlinx-kotlinx-coroutines-android",
+      "versionInfo": "1.10.2",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.jetbrains.kotlinx/kotlinx-coroutines-android@1.10.2"
+        }
+      ]
+    },
+    {
+      "name": "androidx.compose.ui/ui-tooling",
+      "SPDXID": "SPDXRef-Package-maven-androidx.compose.ui-ui-tooling",
+      "versionInfo": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/androidx.compose.ui/ui-tooling"
+        }
+      ]
+    },
+    {
+      "name": "androidx.compose.ui/ui-test-manifest",
+      "SPDXID": "SPDXRef-Package-maven-androidx.compose.ui-ui-test-manifest",
+      "versionInfo": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/androidx.compose.ui/ui-test-manifest"
+        }
+      ]
+    },
+    {
+      "name": "junit/junit",
+      "SPDXID": "SPDXRef-Package-maven-junit-junit",
+      "versionInfo": "4.13.2",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/junit/junit@4.13.2"
+        }
+      ]
+    },
+    {
+      "name": "org.jetbrains.kotlinx/kotlinx-coroutines-test",
+      "SPDXID": "SPDXRef-Package-maven-org.jetbrains.kotlinx-kotlinx-coroutines-test",
+      "versionInfo": "1.10.2",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.jetbrains.kotlinx/kotlinx-coroutines-test@1.10.2"
+        }
+      ]
+    },
+    {
+      "name": "androidx.test.ext/junit",
+      "SPDXID": "SPDXRef-Package-maven-androidx.test.ext-junit",
+      "versionInfo": "1.2.1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/androidx.test.ext/junit@1.2.1"
+        }
+      ]
+    },
+    {
+      "name": "androidx.test.espresso/espresso-core",
+      "SPDXID": "SPDXRef-Package-maven-androidx.test.espresso-espresso-core",
+      "versionInfo": "3.6.1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/androidx.test.espresso/espresso-core@3.6.1"
+        }
+      ]
+    },
+    {
+      "name": "androidx.compose.ui/ui-test-junit4",
+      "SPDXID": "SPDXRef-Package-maven-androidx.compose.ui-ui-test-junit4",
+      "versionInfo": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/androidx.compose.ui/ui-test-junit4"
+        }
+      ]
+    },
+    {
+      "name": "androidx.work/work-testing",
+      "SPDXID": "SPDXRef-Package-maven-androidx.work-work-testing",
+      "versionInfo": "2.10.1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/androidx.work/work-testing@2.10.1"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-pypi-accessidescribe",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-pypi-aiofiles"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-pypi-accessidescribe",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-pypi-cryptography"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-pypi-accessidescribe",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-pypi-fastapi"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-pypi-accessidescribe",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-pypi-httpx"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-pypi-accessidescribe",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-pypi-keyring"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-pypi-accessidescribe",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-pypi-numpy"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-pypi-accessidescribe",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-pypi-opencv-python-headless"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-pypi-accessidescribe",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-pypi-platformdirs"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-pypi-accessidescribe",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-pypi-pydantic-settings"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-pypi-accessidescribe",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-pypi-python-multipart"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-pypi-accessidescribe",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-pypi-soundfile"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-pypi-accessidescribe",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-pypi-sqlalchemy"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-pypi-accessidescribe",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-pypi-uvicorn"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-pypi-accessidescribe",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-pypi-PySide6"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-pypi-accessidescribe",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-maven-androidx.compose-compose-bom"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-pypi-accessidescribe",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-maven-androidx.core-core-ktx"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-pypi-accessidescribe",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-maven-androidx.activity-activity-compose"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-pypi-accessidescribe",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-maven-androidx.lifecycle-lifecycle-runtime-compose"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-pypi-accessidescribe",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-maven-androidx.lifecycle-lifecycle-viewmodel-compose"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-pypi-accessidescribe",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-maven-androidx.compose.material3-material3"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-pypi-accessidescribe",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-maven-androidx.compose.material-material-icons-extended"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-pypi-accessidescribe",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-maven-androidx.compose.ui-ui"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-pypi-accessidescribe",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-maven-androidx.compose.ui-ui-tooling-preview"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-pypi-accessidescribe",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-maven-androidx.navigation-navigation-compose"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-pypi-accessidescribe",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-maven-androidx.work-work-runtime-ktx"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-pypi-accessidescribe",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-maven-androidx.media3-media3-exoplayer"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-pypi-accessidescribe",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-maven-androidx.media3-media3-ui"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-pypi-accessidescribe",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-maven-com.squareup.retrofit2-retrofit"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-pypi-accessidescribe",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-maven-com.squareup.retrofit2-converter-kotlinx-serialization"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-pypi-accessidescribe",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-maven-com.squareup.okhttp3-okhttp"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-pypi-accessidescribe",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-maven-org.jetbrains.kotlinx-kotlinx-serialization-json"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-pypi-accessidescribe",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-maven-org.jetbrains.kotlinx-kotlinx-coroutines-android"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-pypi-accessidescribe",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-maven-androidx.compose.ui-ui-tooling"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-pypi-accessidescribe",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-maven-androidx.compose.ui-ui-test-manifest"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-pypi-accessidescribe",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-maven-junit-junit"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-pypi-accessidescribe",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-maven-org.jetbrains.kotlinx-kotlinx-coroutines-test"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-pypi-accessidescribe",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-maven-androidx.test.ext-junit"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-pypi-accessidescribe",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-maven-androidx.test.espresso-espresso-core"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-pypi-accessidescribe",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-maven-androidx.compose.ui-ui-test-junit4"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-pypi-accessidescribe",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-maven-androidx.work-work-testing"
+    }
+  ],
+  "comment": "Direct declared Python desktop/runtime and Android dependencies. Transitive components in release binaries must also be scanned before publication."
+}
